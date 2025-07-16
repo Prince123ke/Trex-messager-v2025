@@ -86,7 +86,7 @@ module.exports.run = async function ({ api, event, args, global }) {
     }
 
     helpMsg += `ℹ️ use "${prefix}help [command]" for more info\n`;
-    helpMsg += `🤖 bot by hassan\n`;
+    helpMsg += `🤖 princes sophia\n`;
     helpMsg += `≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋`;
 
     return api.sendMessage(helpMsg.trim(), event.threadID, event.messageID);
