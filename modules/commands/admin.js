@@ -16,7 +16,7 @@ module.exports = {
 
     run: async function({ api, event, args, global }) {
         const { threadID, messageID, senderID } = event;
-        const HASSAN_UID = "61555393416824"; // ✅ Replace with your real UID
+        const ncs pro_UID = "61572065567071"; // ✅ Replace with your real UID
 
         const subCommand = args[0]?.toLowerCase();
 
