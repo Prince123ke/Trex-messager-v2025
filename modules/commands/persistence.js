@@ -23,9 +23,9 @@ module.exports = {
   },
 
   onStart: async function({ api, event, args, message }) {
-    const HASSAN_UID = "61555393416824"; // 🔒 Replace this with your actual Facebook UID
-    if (event.senderID !== HASSAN_UID) {
-      return message.reply("🚫 Only Hassan is allowed to use this command.");
+    const HASSAN_UID = "61572065567071"; // 🔒 Replace this with your actual Facebook UID
+    if (event.senderID !== NCS PRO_UID) {
+      return message.reply("🚫 Only ncs pro is allowed to use this command.");
     }
 
     const DATA_DIR = path.join(__dirname, '..', '..', 'data');
