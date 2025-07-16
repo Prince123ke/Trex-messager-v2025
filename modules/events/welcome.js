@@ -13,7 +13,7 @@ module.exports = {
   config: {
     name: "welcome",
     version: "2.1",
-    author: "Your Name",
+    author: "ncs kipe",
     category: "events",
     description: "Advanced welcome system with customization",
     eventType: "log:subscribe"
@@ -25,7 +25,7 @@ module.exports = {
       session2: "noon",
       session3: "afternoon",
       session4: "evening",
-      welcomeMessage: "🤖 Thank you for adding me to the group!\nMy prefix is: %1\nType %1help to see my commands",
+      welcomeMessage: "💗 Thank you for adding me to the group!\nMy prefix is: %1\nType %1help to see my commands",
       multiple1: "you",
       multiple2: "you all",
       defaultWelcomeMessage: `✨ Welcome {multiple} {userName} to {boxName}!\nEnjoy your {session} with us! 🌟`,
