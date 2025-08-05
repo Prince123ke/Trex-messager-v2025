@@ -78,7 +78,7 @@ module.exports.run = async function ({ api, event, args, global }) {
       return lines.join("\n");
     };
 
-    let helpMsg = `SuNita ToTal ComMands: ${enabledCommands.length}\n`;
+    let helpMsg = `princes ToTal ComMands: ${enabledCommands.length}\n`;
     helpMsg += `≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋\n\n`;
 
     for (const cat of Object.keys(categories).sort()) {
