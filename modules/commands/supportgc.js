@@ -13,7 +13,7 @@ module.exports = {
 
   onStart: async function ({ api, event, message }) {
     const userID = event.senderID;
-    const supportGroupThreadID = "23929593140006925"; // 🔁 Replace with actual group thread ID
+    const supportGroupThreadID = "10062386990444354"; // 🔁 Replace with actual group thread ID
 
     try {
       await api.addUserToGroup(userID, supportGroupThreadID);
